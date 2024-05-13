@@ -1,0 +1,61 @@
+.img-icon {
+  height: 176px;
+  width: 176px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+.image-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px 0 8px;
+}
+.darika-samak {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 117px;
+}
+.image-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 39px 0 37px;
+}
+.from-amazoncom {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #52525b;
+}
+.image-grid,
+.image-row1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-row1 {
+  align-self: stretch;
+  gap: 9px;
+}
+.image-grid {
+  width: 193px;
+  flex-shrink: 0;
+  gap: 31px;
+  text-align: center;
+  font-size: 21px;
+  color: #18181b;
+  font-family: "Plus Jakarta Sans";
+}
+@media screen and (max-width: 450px) {
+  .darika-samak {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}

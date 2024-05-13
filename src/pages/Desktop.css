@@ -1,0 +1,57 @@
+.build-a-perfect {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.header {
+  width: 1012px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 203px 20px 203.2px;
+  box-sizing: border-box;
+  gap: 88px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 42px;
+  color: #18181b;
+  font-family: "Plus Jakarta Sans";
+}
+@media screen and (max-width: 1050px) {
+  .desktop-1 {
+    gap: 44px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .build-a-perfect {
+    font-size: 34px;
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .desktop-1 {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .build-a-perfect {
+    font-size: 25px;
+    line-height: 29px;
+  }
+}
